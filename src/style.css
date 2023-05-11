@@ -1,0 +1,100 @@
+/*Global rule*/
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --main-Color: #2196f3;
+    --secondary-color: #666;
+    --main-font-weight: bold;
+    --main-font-size: clamp(1.6rem, 2vw, 2.6rem);
+    --secondary-font-size: clamp(0.6rem, 2vw, 1.2rem);
+    --margin-bottom: 0.7rem;
+    --main-border-radius: 10px;
+    --main--border: 1px solid #ddd;
+    --main-outline: 1px solid #c5c3c3;
+    --main-line-height: 2;
+    --main-p-font-weight: 300;
+    --main-transition: all 0.4s ease;
+    --main-hover-color: #0f73c3;
+}
+
+body {
+    background-color: #f3f3f3;
+}
+
+
+h2 {
+    font-weight: 600;
+}
+
+p {
+    font-weight: var(--main-p-font-weight);
+}
+
+.container {
+    margin: auto 120px;
+}
+
+#btn {
+    background-color: var(--main-Color);
+    border: 1px solid var(--main-Color);
+    padding: 15px 35px;
+    margin: 20px auto;
+    border-radius: var(--main-border-radius);
+    -webkit-border-radius: var(--main-border-radius);
+    -moz-border-radius: var(--main-border-radius);
+    -ms-border-radius: var(--main-border-radius);
+    -o-border-radius: var(--main-border-radius);
+    width: fit-content;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#btn {
+    background-color: var(--main-Color);
+    border: 1px solid var(--main-Color);
+    padding: 15px 35px;
+    margin: 20px auto;
+    border-radius: var(--main-border-radius);
+    -webkit-border-radius: var(--main-border-radius);
+    -moz-border-radius: var(--main-border-radius);
+    -ms-border-radius: var(--main-border-radius);
+    -o-border-radius: var(--main-border-radius);
+    width: fit-content;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    #btn {
+        padding: 10px 25px;
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #btn {
+        padding: 8px 20px;
+        font-size: 0.7rem;
+    }
+}
+
+button a {
+    color: #ffffff;
+}
+
+button i {
+    padding-left: 5px;
+    color: #ffffff;
+}

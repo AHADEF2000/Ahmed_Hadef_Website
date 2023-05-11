@@ -1,0 +1,111 @@
+/*Home*/
+#home .container {
+    padding-top: 200px;
+    display: flex;
+    gap: 5rem;
+    flex-direction: row-reverse;
+    max-width: 35rem;
+}
+
+/*home social-media*/
+#home .social-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#home .social-media a {
+    font-size: var(--main-font-size);
+    padding: 10px 0px;
+    color: #000;
+}
+
+/* home my-info*/
+#home .home-info .my-info {
+    margin-bottom: 100px;
+}
+
+#home .home-info .my-info button {
+    transition: var(--main-transition);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+}
+
+#home .home-info .my-info button:hover {
+    background-color: var(--main-hover-color);
+}
+
+#home .home-info .my-info h1 {
+    font-size: clamp(1.7rem, 2.5vw, 2.3rem);
+    margin-bottom: var(--margin-bottom);
+
+}
+
+#home .home-info .my-info h2 {
+    margin: auto;
+}
+
+#home .home-info .my-info h2::before {
+    display: none;
+}
+
+#home .home-info .my-info p {
+    font-size: var(--secondary-font-size);
+    line-height: var(--main-line-height);
+    margin-bottom: var(--margin-bottom);
+}
+
+/*home scroll-down */
+#home .scroll-down {
+    display: flex;
+    gap: 0.725rem;
+}
+
+#mouse-alt {
+    display: none;
+}
+
+#arrow-down {
+    position: relative;
+    top: 9px;
+}
+
+#home .scroll-down p {
+    font-weight: 500;
+}
+
+
+@media(min-width:50rem) {
+    #mouse-alt {
+        display: block;
+        font-size: clamp(2rem, 3.5vw, 3rem);
+        top: -20px;
+        position: relative;
+    }
+
+    #arrow-down {
+        position: relative;
+        top: 9px;
+    }
+
+    #home .home-info .my-info h2::before {
+        display: block;
+        content: "";
+        position: absolute;
+        background-color: #666;
+        width: 65px;
+        height: 3px;
+        bottom: 50%;
+        left: -28%;
+        transform: translate(50%, 50%);
+    }
+
+    #home .home-info .my-info h2 {
+        margin-left: 70px;
+        position: relative;
+        font-size: var(--main-font-size);
+        margin-bottom: var(--margin-bottom);
+    }
+}

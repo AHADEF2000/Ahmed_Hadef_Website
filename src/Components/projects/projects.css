@@ -1,0 +1,84 @@
+#projects .btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    gap: 2rem;
+}
+
+#projects button {
+    cursor: pointer;
+    background-color: #f3f3f3;
+    border: none;
+    font-size: 1rem;
+}
+
+#projects .active {
+    background-color: var(--main-Color);
+    padding: 5px 15px;
+    border-radius: var(--main-border-radius);
+    -webkit-border-radius: var(--main-border-radius);
+    -moz-border-radius: var(--main-border-radius);
+    -ms-border-radius: var(--main-border-radius);
+    -o-border-radius: var(--main-border-radius);
+    color: #fff;
+}
+
+#projects .project-list {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#projects .project-list .project-list-item {
+    background-color: #fff;
+    padding: 20px;
+    width: fit-content;
+    border-radius: var(--main-border-radius);
+    -webkit-border-radius: var(--main-border-radius);
+    -moz-border-radius: var(--main-border-radius);
+    -ms-border-radius: var(--main-border-radius);
+    -o-border-radius: var(--main-border-radius);
+    transition: transform 0.3s ease-in-out;
+    -webkit-transition: transform 0.3s ease-in-out;
+    -moz-transition: transform 0.3s ease-in-out;
+    -ms-transition: transform 0.3s ease-in-out;
+    -o-transition: transform 0.3s ease-in-out;
+    margin-bottom: 50px;
+}
+
+#projects .project-list .project-list-item:hover {
+    transform: translate(10px, -10px);
+    -webkit-transform: translate(10px, -10px);
+    -moz-transform: translate(10px, -10px);
+    -ms-transform: translate(10px, -10px);
+    -o-transform: translate(10px, -10px);
+}
+
+#projects img {
+    width: 280px;
+    height: 200px;
+    border-radius: var(--main-border-radius);
+    -webkit-border-radius: var(--main-border-radius);
+    -moz-border-radius: var(--main-border-radius);
+    -ms-border-radius: var(--main-border-radius);
+    -o-border-radius: var(--main-border-radius);
+    margin-bottom: 20px;
+}
+
+#projects .project-info h3 {
+    color: black;
+    font-weight: 500;
+}
+
+#projects .project-info p {
+    color: var(--secondary-color);
+}
+
+@media(min-width:50rem) {
+    #projects .project-list {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2rem;
+        row-gap: 50px;
+    }
+}

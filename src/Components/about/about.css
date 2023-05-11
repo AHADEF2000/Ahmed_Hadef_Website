@@ -1,0 +1,76 @@
+#about .container {
+    display: block;
+}
+
+#about .container img {
+    display: none;
+}
+
+#about .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#about i {
+    font-size: var(--secondary-font-size);
+}
+
+#about .cards p {
+    line-height: var(--main-line-height);
+}
+
+#about .card {
+    background-color: #fff;
+    width: 200px;
+    height: 150px;
+    padding: 2rem;
+    border: var(--main-border);
+    outline: var(--main-outline);
+    border-radius: var(--main-border-radius);
+    -webkit-border-radius: var(--main-border-radius);
+    -moz-border-radius: var(--main-border-radius);
+    -ms-border-radius: var(--main-border-radius);
+    -o-border-radius: var(--main-border-radius);
+}
+
+#about button {
+    display: block;
+    margin: 50px auto;
+    transition: var(--main-transition);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+}
+
+#about button:hover {
+    background-color: #0f73c3;
+}
+
+@media(min-width: 50rem) {
+
+    #about .container {
+        display: flex;
+        gap: 5rem;
+    }
+
+    #about .container img {
+        display: block;
+        max-width: 380px;
+        max-height: 350px;
+        border-radius: var(--main-border-radius);
+        -webkit-border-radius: var(--main-border-radius);
+        -moz-border-radius: var(--main-border-radius);
+        -ms-border-radius: var(--main-border-radius);
+        -o-border-radius: var(--main-border-radius);
+    }
+
+    #about button {
+        margin: 20px 0;
+    }
+}

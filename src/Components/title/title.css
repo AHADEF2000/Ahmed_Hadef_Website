@@ -1,0 +1,13 @@
+.title {
+    text-align: center;
+    margin: max(3.75rem, 7.5rem) auto;
+}
+
+.title h1 {
+    font-size: clamp(2.5rem, 5vw, 3.5rem);
+}
+
+.title p {
+    font-size: var(--secondary-font-size);
+    color: #666;
+}
