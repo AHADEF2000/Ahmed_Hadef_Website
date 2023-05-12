@@ -32,7 +32,6 @@ function Nav() {
                 setActive("home-nav");
             }
         };
-
         window.addEventListener("scroll", handleScroll);
         return () => {
             window.removeEventListener("scroll", handleScroll);
@@ -41,7 +40,6 @@ function Nav() {
 
     return (
         <>
-
             <nav id="navigation-bar">
                 <div className="container">
                     <p className="logo"> AHMED </p>
@@ -55,7 +53,6 @@ function Nav() {
                     </ul>
                 </div >
             </nav>
-
         </>
     )
 }
