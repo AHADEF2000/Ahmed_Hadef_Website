@@ -9,12 +9,12 @@ function Experience() {
                     <p>Entery Level</p>
                 </div>
                 <div className="card">
-                    <box-icon name='briefcase-alt'></box-icon>
+                    <i className="fa-solid fa-suitcase"></i>
                     <h3>Completeted</h3>
                     <p>4 + Projects</p>
                 </div>
                 <div className="card">
-                    <box-icon name='support'></box-icon>
+                    <i className="fa-solid fa-headset"></i>
                     <h3>Support</h3>
                     <p>online 24/7</p>
                 </div>

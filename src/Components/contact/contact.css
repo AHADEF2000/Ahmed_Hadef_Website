@@ -3,14 +3,18 @@
 }
 
 .send .send-box {
-    display: block;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+    margin-bottom: 50px;
 }
 
 .send .send-box .send-item {
-    min-width: 350px;
-    min-height: 250px;
+    min-width: 250px;
+    min-height: 150px;
     background-color: #fff;
-    padding: 30px 50px;
+    padding: 20px;
     border: var(--main--border);
     border-radius: var(--main-border-radius);
     -webkit-border-radius: var(--main-border-radius);
@@ -22,7 +26,7 @@
     -moz-transition: var(--main-transition);
     -ms-transition: var(--main-transition);
     -o-transition: var(--main-transition);
-    margin-bottom: 50px;
+    text-align: center;
 }
 
 .send .send-box .send-item:hover {
@@ -75,12 +79,12 @@
 @media(min-width:50rem) {
     .send .send-box {
         display: flex;
-        justify-content: center;
-        align-items: center;
         gap: 5rem;
     }
 
     .send .send-box .send-item {
+        min-width: 350px;
+        min-height: 250px;
         padding: 30px 50px;
     }
 

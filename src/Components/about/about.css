@@ -1,5 +1,6 @@
 #about .container {
     display: block;
+    line-height: var(--main-line-height);
 }
 
 #about .container img {
@@ -13,22 +14,18 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 #about i {
     font-size: var(--secondary-font-size);
 }
 
-#about .cards p {
-    line-height: var(--main-line-height);
-}
-
 #about .card {
     background-color: #fff;
-    width: 200px;
-    height: 150px;
-    padding: 2rem;
+    width: 100px;
+    height: 75px;
+    padding: 1rem;
     border: var(--main-border);
     outline: var(--main-outline);
     border-radius: var(--main-border-radius);
@@ -36,11 +33,19 @@
     -moz-border-radius: var(--main-border-radius);
     -ms-border-radius: var(--main-border-radius);
     -o-border-radius: var(--main-border-radius);
+    font-size: 0.5rem;
+    text-align: center;
+}
+
+#about .about-info {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 0.8rem;
 }
 
 #about button {
     display: block;
-    margin: 50px auto;
     transition: var(--main-transition);
     -webkit-transition: var(--main-transition);
     -moz-transition: var(--main-transition);
@@ -70,7 +75,22 @@
         -o-border-radius: var(--main-border-radius);
     }
 
+    #about .about-info {
+        text-align: left;
+    }
+
+    #about .about-info p {
+        font-size: 1rem;
+    }
+
     #about button {
-        margin: 20px 0;
+        margin: 20px 0px;
+    }
+
+    #about .card {
+        padding: 2rem;
+        width: 200px;
+        height: 160px;
+        font-size: 1rem;
     }
 }
