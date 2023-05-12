@@ -6,6 +6,7 @@ function Nav() {
     const [active, setActive] = useState("home-nav");
 
     const [toggle, setToggle] = useState(false);
+
     function handleClick(event) {
         setActive(event.target.id);
     }
