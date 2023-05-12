@@ -5,6 +5,7 @@ function Nav() {
 
     const [active, setActive] = useState("home-nav");
 
+    const [toggle, setToggle] = useState(false);
     function handleClick(event) {
         setActive(event.target.id);
     }
@@ -41,16 +42,21 @@ function Nav() {
     return (
         <>
             <nav id="navigation-bar">
+
                 <div className="container">
                     <p className="logo"> AHMED </p>
-                    <ul className="header-links">
-                        <li> <a id="home-nav" href="#home" onClick={handleClick} className={active === "home-nav" ? "active" : ""}>Home</a> </li>
-                        <li> <a id="about-nav" href="#about" onClick={handleClick} className={active === "about-nav" ? "active" : ""}> About</a>  </li>
-                        <li> <a id="skills-nav" href="#skills" onClick={handleClick} className={active === "skills-nav" ? "active" : ""}> Skills</a> </li>
-                        <li> <a id="services-nav" href="#services" onClick={handleClick} className={active === "services-nav" ? "active" : ""}>Services </a> </li>
-                        <li> <a id="projects-nav" href="#projects" onClick={handleClick} className={active === "projects-nav" ? "active" : ""}> Projects</a> </li>
-                        <li> <a id="contact-nav" href="#contact" onClick={handleClick} className={active === "contact-nav" ? "active" : ""}> Contact</a> </li>
-                    </ul>
+                    <div id="toggle-menu" className={toggle === true ? "show-toggle-menu" : "toggle-menu"} >
+                        <ul className="header-links" onClick={handleClick}>
+                            <li> <a id="home-nav" href="#home" className={active === "home-nav" ? "active" : ""}> <i className="uil uil-estate"></i> Home</a> </li>
+                            <li> <a id="about-nav" href="#about" className={active === "about-nav" ? "active" : ""}> <i className="uil uil-user"></i>About</a>  </li>
+                            <li> <a id="skills-nav" href="#skills" className={active === "skills-nav" ? "active" : ""}> <i className="uil uil-file-alt"></i> Skills</a> </li>
+                            <li> <a id="services-nav" href="#services" className={active === "services-nav" ? "active" : ""}> <i className="uil uil-suitcase"></i>Services </a> </li>
+                            <li> <a id="projects-nav" href="#projects" className={active === "projects-nav" ? "active" : ""}> <i className="uil uil-image"></i> Projects</a> </li>
+                            <li> <a id="contact-nav" href="#contact" className={active === "contact-nav" ? "active" : ""}> <i className="uil uil-message"></i>Contact</a> </li>
+                        </ul>
+                        <i className="nav-close" onClick={() => setToggle(false)}>X</i>
+                    </div>
+                    <i className="uil uil-apps" onClick={() => setToggle(true)}></i>
                 </div >
             </nav>
         </>

@@ -1,7 +1,7 @@
 /*Navigation*/
 #navigation-bar {
     position: fixed;
-    top: 0;
+    bottom: 0;
     left: 0;
     right: 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -10,7 +10,41 @@
     padding: 20px 0;
 }
 
-#navigation-bar .container {
+nav .toggle-menu {
+    display: none;
+}
+
+nav .show-toggle-menu {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 2rem 1.5rem 4rem;
+    border-radius: 1.5rem 1.5rem 0 0;
+    -webkit-border-radius: 1.5rem 1.5rem 0 0;
+    -moz-border-radius: 1.5rem 1.5rem 0 0;
+    -ms-border-radius: 1.5rem 1.5rem 0 0;
+    -o-border-radius: 1.5rem 1.5rem 0 0;
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+
+}
+
+
+nav .show-toggle-menu i {
+    display: block;
+}
+
+nav .show-toggle-menu .nav-close {
+    position: absolute;
+    right: 1.3rem;
+    bottom: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+nav .container {
+    margin: auto 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,26 +54,43 @@
 #navigation-bar p {
     color: var(--main-Color);
     font-weight: var(--main-font-weight);
-    font-size: var(--main-font-size);
-    flex: 1;
-    text-align: center;
+    font-size: 1rem;
 }
 
 #navigation-bar ul {
-    display: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 2rem;
+    text-align: center;
 }
 
+
 @media(min-width:50rem) {
+    nav .container {
+        margin: auto 120px;
+    }
+
+    #navigation-bar {
+        top: 0;
+        max-height: 80px;
+    }
+
+    nav .toggle-menu {
+        display: block;
+    }
+
+    nav i {
+        display: none;
+    }
 
     #navigation-bar p {
-        text-align: left;
+        font-size: var(--main-font-size);
     }
 
     #navigation-bar ul {
         display: flex;
         gap: 2.5rem;
         text-align: center;
-        flex: 1;
     }
 
     #navigation-bar li a {
