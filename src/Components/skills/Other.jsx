@@ -6,7 +6,8 @@ function Other() {
                 <div className="skill-contnet">
                     <div className="skill">
                         <div className="skill-icon">
-                            <box-icon type='solid' name='badge-check' ></box-icon>
+                            <i className="fa-solid fa-circle-check"></i>
+
                         </div>
                         <div className="skill-info">
                             <h3>PostgresSQL</h3>
@@ -15,7 +16,8 @@ function Other() {
                     </div>
                     <div className="skill">
                         <div className="skill-icon">
-                            <box-icon type='solid' name='badge-check' ></box-icon>
+                            <i className="fa-solid fa-circle-check"></i>
+
                         </div>
                         <div className="skill-info">
                             <h3>Python</h3>
@@ -24,7 +26,8 @@ function Other() {
                     </div>
                     <div className="skill">
                         <div className="skill-icon">
-                            <box-icon type='solid' name='badge-check' ></box-icon>
+                            <i className="fa-solid fa-circle-check"></i>
+
                         </div>
                         <div className="skill-info">
                             <h3>Excel</h3>
@@ -33,7 +36,7 @@ function Other() {
                     </div>
                     <div className="skill">
                         <div className="skill-icon">
-                            <box-icon type='solid' name='badge-check' ></box-icon>
+                            <i className="fa-solid fa-circle-check"></i>
                         </div>
                         <div className="skill-info">
                             <h3>PowerBI</h3>

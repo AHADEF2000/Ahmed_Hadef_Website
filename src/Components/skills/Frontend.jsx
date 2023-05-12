@@ -6,7 +6,7 @@ function Frontend() {
                 <div className="skill-contnet">
                     <div className="skill">
                         <div className="skill-icon">
-                            <box-icon type='solid' name='badge-check' ></box-icon>
+                            <i className="fa-solid fa-circle-check"></i>
                         </div>
                         <div className="skill-info">
                             <h3>HTML</h3>
@@ -15,7 +15,8 @@ function Frontend() {
                     </div>
                     <div className="skill">
                         <div className="skill-icon">
-                            <box-icon type='solid' name='badge-check' ></box-icon>
+                            <i className="fa-solid fa-circle-check"></i>
+
                         </div>
                         <div className="skill-info">
                             <h3>CSS</h3>
@@ -24,7 +25,8 @@ function Frontend() {
                     </div>
                     <div className="skill">
                         <div className="skill-icon">
-                            <box-icon type='solid' name='badge-check' ></box-icon>
+                            <i className="fa-solid fa-circle-check"></i>
+
                         </div>
                         <div className="skill-info">
                             <h3>JavaScript</h3>
@@ -33,7 +35,8 @@ function Frontend() {
                     </div>
                     <div className="skill">
                         <div className="skill-icon">
-                            <box-icon type='solid' name='badge-check' ></box-icon>
+                            <i className="fa-solid fa-circle-check"></i>
+
                         </div>
                         <div className="skill-info">
                             <h3>Bootstrap</h3>
@@ -42,7 +45,8 @@ function Frontend() {
                     </div>
                     <div className="skill">
                         <div className="skill-icon">
-                            <box-icon type='solid' name='badge-check' ></box-icon>
+                            <i className="fa-solid fa-circle-check"></i>
+
                         </div>
                         <div className="skill-info">
                             <h3>Git</h3>
@@ -51,7 +55,7 @@ function Frontend() {
                     </div>
                     <div className="skill">
                         <div className="skill-icon">
-                            <box-icon type='solid' name='badge-check' ></box-icon>
+                            <i className="fa-solid fa-circle-check"></i>
                         </div>
                         <div className="skill-info">
                             <h3>React</h3>

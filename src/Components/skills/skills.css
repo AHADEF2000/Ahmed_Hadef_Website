@@ -14,7 +14,7 @@
     -o-border-radius: var(--main-border-radius);
     outline: var(--main-outline);
     padding: max(1rem, 2rem) max(1.5rem, 2.5rem);
-    height: 400px;
+    min-height: 350px;
 }
 
 #skills .skill-box h2 {
@@ -41,8 +41,6 @@
     position: absolute;
     top: 5px;
 }
-
-
 
 .skill-box .skill-contnet .skill .skill-info {
     margin-left: max(1.09375rem, 2.1875rem);

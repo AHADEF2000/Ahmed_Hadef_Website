@@ -44,7 +44,7 @@
 }
 
 #home .home-info .my-info h2 {
-    margin: auto;
+    margin-bottom: var(--margin-bottom);
 }
 
 #home .home-info .my-info h2::before {
