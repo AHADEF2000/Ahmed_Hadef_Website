@@ -4,7 +4,10 @@ import Experience from "./Experience"
 import Info from "./Info"
 import Image from "../../assets/Imgs/about_img.png"
 
+
 function About() {
+
+
     return (
         <>
             <section id="about">

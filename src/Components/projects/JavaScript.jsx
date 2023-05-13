@@ -3,7 +3,10 @@ import quizImg from "../../assets/Imgs/Quiz_app.png"
 import hangImg from "../../assets/Imgs/hang_man_game.png"
 import Exchange from "../../assets/Imgs/Exchange.png"
 
+
 function JavaScript() {
+
+
     return (
         <>
             <div className="project-list-item">

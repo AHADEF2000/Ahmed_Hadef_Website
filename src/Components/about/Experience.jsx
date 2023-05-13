@@ -1,3 +1,4 @@
+
 function Experience() {
 
     return (
@@ -11,7 +12,7 @@ function Experience() {
                 <div className="card">
                     <i className="fa-solid fa-suitcase"></i>
                     <h3>Completeted</h3>
-                    <p>4 + Projects</p>
+                    <p> 5 + Projects</p>
                 </div>
                 <div className="card">
                     <i className="fa-solid fa-headset"></i>
@@ -23,5 +24,6 @@ function Experience() {
     )
 
 }
+
 
 export default Experience

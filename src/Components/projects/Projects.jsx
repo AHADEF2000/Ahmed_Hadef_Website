@@ -3,6 +3,8 @@ import Filter from "./Filter"
 import "./projects.css"
 
 function Portfolio() {
+
+
     return (
         <>
             <section id="projects">

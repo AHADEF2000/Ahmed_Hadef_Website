@@ -10,6 +10,8 @@ import ScrollUp from "./Components/scrollup/ScrollUp";
 
 
 function App() {
+
+
   return (
     <>
       <Nav />
