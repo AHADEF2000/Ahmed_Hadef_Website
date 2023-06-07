@@ -11,7 +11,6 @@ function Other() {
                         </div>
                         <div className="skill-info">
                             <h3>PostgresSQL</h3>
-                            <p>Intermediate</p>
                         </div>
                     </div>
                     <div className="skill">
@@ -21,7 +20,6 @@ function Other() {
                         </div>
                         <div className="skill-info">
                             <h3>Python</h3>
-                            <p>Beginner</p>
                         </div>
                     </div>
                     <div className="skill">
@@ -31,7 +29,7 @@ function Other() {
                         </div>
                         <div className="skill-info">
                             <h3>Excel</h3>
-                            <p>Intermediate</p>
+
                         </div>
                     </div>
                     <div className="skill">
@@ -40,7 +38,7 @@ function Other() {
                         </div>
                         <div className="skill-info">
                             <h3>PowerBI</h3>
-                            <p>Intermediate</p>
+
                         </div>
                     </div>
                 </div>
