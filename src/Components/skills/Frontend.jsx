@@ -62,6 +62,23 @@ function Frontend() {
 
                         </div>
                     </div>
+                    <div className="skill">
+                        <div className="skill-icon">
+                            <i className="fa-solid fa-circle-check"></i>
+                        </div>
+                        <div className="skill-info">
+                            <h3>Next JS</h3>
+
+                        </div>
+                    </div>
+                    <div className="skill">
+                        <div className="skill-icon">
+                            <i className="fa-solid fa-circle-check"></i>
+                        </div>
+                        <div className="skill-info">
+                            <h3>Tailwind CSS</h3>
+                        </div>
+                    </div>
                 </div>
             </div>
         </>
