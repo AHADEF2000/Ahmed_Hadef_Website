@@ -108,9 +108,8 @@
   }
 }
 
-/* Add this to your home.css file or create a new CSS file for animations */
 .jump-animation {
-  animation: jump 1s ease-in-out; /* Increase the duration to slow down the animation */
+  animation: jump 1s ease-in-out;
 }
 
 @keyframes jump {

@@ -7,7 +7,7 @@ function All() {
     <>
       <HTML_CSS />
       <JavaScript />
-      <ReactJs />;
+      <ReactJs />
     </>
   );
 }
