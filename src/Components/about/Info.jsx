@@ -1,4 +1,4 @@
-import resume from "../../assets/docs/Ahmed_Hadef_CV.pdf";
+import resume from "../../assets/docs/Ahmed_Hadef_Resume.pdf";
 
 function Info() {
   return (
